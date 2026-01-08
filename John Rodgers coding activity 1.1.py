@@ -20,6 +20,8 @@ def add_favorite(city, response):
         print(city + " was added to your favorites.")
     elif city in favorites:
         print("That city is already in your favorites list.")
+    elif len(favorites) == 3:
+        print("Your favorites list is at maximum capacity (3). Please remove a city if you wish to add another.")
 # function to add a favorite city to the list
 
 
