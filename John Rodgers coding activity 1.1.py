@@ -6,7 +6,7 @@ import requests
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
 API_KEY = "6283201c72387498e99ed63f0311e14d"
-# hard coded api key for simplicty
+# hard coded api key for simplicity
 UNITS = "imperial"
 # constants because these do not need to change, user is assumed to be in CONUS
 favorites = {}
