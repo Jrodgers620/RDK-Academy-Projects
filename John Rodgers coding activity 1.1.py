@@ -5,8 +5,8 @@ __author__ = "John Rodgers"
 import requests
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
-API_KEY = "6283201c72387498e99ed63f0311e14d"
-# hard coded api key for simplicity
+API_KEY = "insert API"
+# use your api key here
 UNITS = "imperial"
 # constants because these do not need to change, user is assumed to be in CONUS
 favorites = {}
@@ -94,6 +94,7 @@ while command != "end":
             removed_city = input("which city would you like to remove?")
             remove_favorite(removed_city)
         # remove city from favorites
+
 
 
 
